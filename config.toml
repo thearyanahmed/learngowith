@@ -1,7 +1,7 @@
 baseURL = 'https://learngowith.thearyanahmed.com/'
 languageCode = 'en-us'
 title = 'Learn Go'
-theme = 'Typo'
+theme = 'typo'
 
 
 [taxonomies]
@@ -78,3 +78,6 @@ category = "General"
 categoryid = "categoryId"
 mapping = "pathname"
 theme = "preferred_color_scheme"
+
+#[[module.imports]]
+# path = "github.com/tomfran/Typo"
