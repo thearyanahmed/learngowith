@@ -1,0 +1,29 @@
+@font-face {
+    font-family: 'Fredericka the Great';
+    src: url('/fonts/FrederickatheGreat/FrederickatheGreat-Regular.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-display: fallback;
+    font-family: "AquawaxAlt";
+    font-style: normal;
+    font-weight: 300;
+    src: url("/fonts/Aquawaxpro/Aquawaxpro-Light.otf")
+        format("opentype");
+}
+
+
+.header-title {
+    font-family: 'Fredericka the Great', cursive;
+    /* font-weight: 500 !important; */
+    color: #18181b;
+}
+
+
+.header-title {
+    font-family: 'AquawaxAlt';
+    font-weight: 500 !important;
+    color: #18181b;
+}
